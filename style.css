@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    
+}
+/* =========================HEADER========================= */
+header{
+    background: url(img/header_back.jpg) no-repeat center 90% / cover;
+}
+header .navbar{
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-size: 12px; 
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #191919; /* bu nav li a ni colori. tepadagi kodda ishlamadi */
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(0, 195, 255);
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color:  #007d2f;
+}
+header .we_design h2{
+    color: #1d1d1d;
+    font-size: 35.84px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+header .we_design p{
+    color: #787878;
+    font-size: 15.36px;
+    font-weight: 400;/*aslida 100 edi*/
+    margin-bottom: 50px;
+}
+header .we_design button{
+    background-color: #007d2f;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    width: 42.6966%;
+    height: 53px;
+    margin-bottom: 280px;
+}
+/* ================ABOUT US========================== */
+#about_us{
+    padding-top: 95px;    
+}
+#about_us h2{
+    color: #191919;
+    font-weight: 500;
+    font-size: 34.43px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#about_us .divide_have p{
+    margin-bottom: 50px;
+    line-height: 20.73px;
+    font-size: 13.82px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #787878;
+}
+#about_us .divide_have img{
+    margin-bottom: 40px;/*bu imzo */
+}
+#about_us .skill_indicator{
+    /* background: url(img/images/about_back1_02.jpg) no-repeat center center /cover; */
+    background-color: #f8f9f9;
+    height: 570px;
+}
+#about_us .skill_indicator .about_us_img{
+
+    right: 0;
+    top: 0;  
+    overflow: hidden;
+    height: 100%;
+}
+#about_us .skill_indicator .about_us_img img{
+    width: 115%;
+    height: 115%;
+    object-fit: cover;
+    object-position: -50px -50px;
+}
+
+#about_us .skill_indicator .professional_skills{
+    padding: 165px 54px 0 0;
+    /* padding-bottom: 163px */
+}
+#about_us .skill_indicator .professional_skills h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #171717;
+    margin-bottom: 35px;
+}
+#about_us .skill_indicator .professional_skills p{
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 19px;
+}
+#about_us .skill_indicator .professional_skills .progress {
+    background-color: #d8d8d8;
+    margin-bottom: 40px;
+}
+#about_us .skill_indicator .professional_skills .progress .progress-bar{
+    background-color: #007d2f;
+}
+/* =======================WORK=============================== */
+#work .work_top{
+    background-color: #007d2f;
+    padding-top: 70px;    
+}
+#work .work_top .work_top_indicator{
+    width: 66.666667%;
+}
+#work .work_top i{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    /* width: 40px;
+    height: 40px; */
+    /* display: block; */
+}
+#work .work_top p:first-of-type{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#work .work_top p:last-of-type{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 78px;    
+}
+
+#work .work_middle .work_middle_overlay{
+    box-shadow: 3603px 6233px 2px 0px rgba(32, 22, 0, 0.42) inset;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#work .work_middle .work_middle_overlay:hover{
+    opacity: 1;
+    transition-duration: 500ms;
+}
+#work .work_middle .work_middle_overlay:hover a img{
+    opacity: 1;
+    transition-duration: 800ms;
+}
+#work .work_middle .work_middle_overlay a{
+    display: block;
+}
+#work .work_middle .work_middle_overlay a img{
+    opacity: 0;
+}
+
+#work .work_bottom{
+    background-color: #007d2f;
+    height: 100px;
+}
+#work .work_bottom a{
+    font-size: 21.13px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    /* padding-top: 40px; */
+    /* margin-bottom: 35px; */
+}
+#work .work_bottom a:hover{
+    text-decoration: none;
+    color: #d8d8d8;
+    transition-duration: 400ms;
+}
+/* =================PROCESS SECTION======================== */
+#process {
+    padding-top: 98px;
+    margin-bottom: 100px;
+}
+#process h2{
+    color: #191919;
+    /* font-size: 43.62px; */
+    font-size: 37px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+#process p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22.28px;
+    font-weight: 400;
+    line-height: 33.42px;
+    color: #787878;
+    margin-bottom: 45px;
+}
+#process .process_play{
+    width: 100%;
+    height: 570px;
+}
+#process .process_play video{
+    object-fit: cover;
+}
+#process .process_play .process_overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 3603px 6233px 2px 0px rgba(32, 22, 0, 0.27) inset;
+    opacity: 0;
+}
+#process .process_play .process_overlay:hover{
+    opacity: 1;
+    transition-duration: 500ms;
+    
+}
+#process .process_play .process_overlay a i{
+    /* //width: 84px;    height: 84px;    display: block;  */
+    font-size: 84px;
+    color: #007d2f;
+}
+/* ===================SERVICES=============================== */
+#services{
+    padding-top: 108px;
+    background-color: #f5f5f5;
+    padding-bottom: 100px;
+}
+/* #services i{
+    font-size: 40px;
+    color: #656565;
+} */
+#services img{
+    height: 40px;
+    width: auto;
+    margin-bottom: 25px;
+}
+#services h2{
+    text-transform: uppercase;
+    color: #191919;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#services p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15.86px;
+    color: #787878;
+    line-height: 23.79px;
+    margin-bottom: 55px;
+    padding: 0 10px 0 10px;
+}
+/* ===================TESTIMONALS=============================== */
+#testimonials{
+    background-color: #007d2f;
+    height: 500px;
+    padding-top: 190px;
+}
+#testimonials #index_page_carousel .carousel-inner .carousel-item p{
+    color: #ffffff;
+    font-size: 19.73px;
+    font-weight: 500;
+    line-height: 29.6px;    
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+} 
+/* #testimonials #index_page_carousel .carousel-inner .carousel-item p:nth-of-type(2){
+  
+    margin-bottom: 100px;
+} */
+#testimonials #index_page_carousel .carousel-inner .carousel-item p span{
+    font-size: 16.41px;
+    
+   
+}
+#testimonials #index_page_carousel .carousel-indicators{
+    margin-bottom: 0;
+    align-items: center;    
+    position: unset;
+}
+#testimonials #index_page_carousel .carousel-indicators li{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    border: none;
+    background-color: #b0e8e6;
+    margin-right: 8px;
+    margin-left: 0;
+}
+#testimonials #index_page_carousel .carousel-indicators li.active{
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+}
+.partner_logos .partners{
+   /* height: 200px; */
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+/* ===================CONTACT=============================== */
+#contact{
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+#contact h2{
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#contact p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #787878;
+    line-height: 24px;
+    padding: 0 44px 0 54px;
+    margin-bottom: 35px;
+}
+#contact input{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #787878;
+    height: 45px;
+    border: none;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+#contact .name_input input{
+    width: 47.946%;   
+}
+#contact textarea{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #787878;
+    border: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    height: 170px;
+}
+#contact .contact_button{
+    width: 21.918%;
+    height: 54px;
+    border: none;
+    background-color: #007d2f;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+/* ===================FOOTER=============================== */
+footer{
+    background-color: #141414;
+    padding-top: 95px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+footer .footer_logo h2{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+footer .footer_logo p{    
+    font-weight: 400;    
+    margin-bottom: 25px;
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+footer a{
+    display: block;
+    font-weight: 400;    
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+/* lg */
+@media (max-width:1200px){
+    #work .work_top .work_top_indicator{
+        width: 100%;
+    }
+    #testimonials #index_page_carousel .carousel-inner .carousel-item p{
+        width: 80%;
+    }
+    footer .footer_logo h2{
+      
+        font-size: 17.66px;
+        
+    }
+}
+
+/* small */
+@media (max-width:768px){
+    #testimonials #index_page_carousel .carousel-inner .carousel-item p{
+        width: 100%;
+    }
+    .partner_logos .partners img{
+        margin-bottom: 30px;
+    }
+    #about_us .divide_have img{
+        width: 20%;
+    }
+    #about_us .skill_indicator{
+        height: 400px;
+    }
+    #about_us .skill_indicator .professional_skills{
+        padding: 50px 10px 0 0;
+        /* padding-bottom: 163px */
+    }
+    #about_us .skill_indicator .professional_skills h3{
+        font-size: 25px;
+    }
+    #process h2{
+        
+        font-size: 30px;
+        
+        margin-bottom: 25px;
+    }
+    #process p{
+       
+        font-size: 20px;
+       
+        line-height: 30px;
+        
+        margin-bottom: 40px;
+    }
+    #process {
+        padding-top: 50px;
+        margin-bottom: 80px;
+    }
+    #process .process_play{
+        width: 100%;
+        height: 400px;
+    }
+    #services{
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    #testimonials{
+        height: 400px;
+        padding-top: 90px;
+    }
+   
+}
+
+/* 
+   <script> 
+      var vid = document.getElementById("myVideo");    
+      var hasDFlex = document.getElementById("delete_overlay").classList.contains("d-flex");  
+
+      function playVid() {         
+        vid.play(); 
+        if(hasDFlex){
+          document.getElementById("delete_overlay").classList.remove("d-flex");
+          document.getElementById("delete_overlay").classList.add("d-none");
+          return 0;
+        }
+        else if(!hasDFlex){
+          document.getElementById("delete_overlay").classList.add("d-flex");
+          return 0;
+        } 
+     
+      </script> 
+*/

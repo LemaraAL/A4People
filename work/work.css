@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    
+}
+/* ==========HEADER=============== */
+header .navbar{
+    padding: 16px 0;
+    background-color: #ffffff;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #007d2f;    
+}
+
+header .navbar-light .navbar-nav .nav-link{
+    color: #191919;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* ================CAROUSEL WORK EXAMPLE==================== */
+#work_example{
+    background-color: #f6f6f6;
+}
+#work_example .carousel .carousel-inner .carousel-item .container{
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+#work_example .carousel .carousel-inner .carousel-item .container h3{
+    color: #171717;
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#work_example .carousel .carousel-inner .carousel-item .container p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    font-size: 16px;
+    line-height: 24px;
+}
+#work_example .carousel .carousel-inner .carousel-item .container .work_ex_paragraph p:first-of-type{
+    margin-bottom: 30px;
+}
+#work_example .carousel .carousel-inner .carousel-item .container .work_ex_paragraph p:last-of-type{
+    margin-bottom: 55px;
+}
+#work_example .carousel .carousel-inner .carousel-item .container p span{
+    font-weight: 700;
+    color: #171717;
+}
+#work_example .carousel .carousel-inner .carousel-item img{
+    right: 0;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+}
+#work_example .carousel .carousel_bottom{
+    background-color: #007d2f;
+    height: 100px;    
+}
+#work_example .carousel .carousel_bottom .carousel-indicators{
+    width: 25px;
+    flex-wrap: wrap;
+}
+#work_example .carousel .carousel_bottom .carousel-indicators li{
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    border: none;
+    margin: 2px;
+}
+#work_example .carousel .carousel_bottom .carousel-control-prev{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+#work_example .carousel .carousel_bottom .carousel-control-prev i{
+    font-size: 16px;
+    color: #000000;
+    margin-right: 14px;
+}
+#work_example .carousel .carousel_bottom .carousel-control-next{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+#work_example .carousel .carousel_bottom .carousel-control-next i{
+    font-size: 16px;
+    color: #000000;
+    margin-left: 14px;
+}
+
+/* ====================FOOTER========== */
+footer{
+    background-color: #141414;
+    padding-top: 95px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14.72px;
+}
+footer .footer_logo h2{
+    color: #ffffff;
+    font-size: 17.66px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+footer .footer_logo p{    
+    font-weight: 400;    
+    margin-bottom: 25px;
+    line-height: 23.55px;
+    margin-bottom: 90px;
+}
+footer a{
+    display: block;
+    font-weight: 400;    
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+/* large */
+@media (max-width: 1200px){
+    #work_example .carousel .carousel-inner .carousel-item .container{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+}
+/* md */
+@media (max-width: 992px){
+    #work_example .carousel .carousel-inner .carousel-item .container{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    #work_example .carousel .carousel-inner .carousel-item .container p{
+        line-height: 22px;
+    }
+}
+/* sm */
+@media (max-width: 768px){
+   
+    #work_example .carousel .carousel-inner .carousel-item .container h3{
+      
+        font-size: 30px;
+     
+        margin-bottom: 20px;
+    }
+    #work_example .carousel .carousel-inner .carousel-item .container p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    #work_example .carousel .carousel-inner .carousel-item .container .work_ex_paragraph p:first-of-type{
+        margin-bottom: 20px;
+    }
+    #work_example .carousel .carousel-inner .carousel-item .container .work_ex_par_2 p{
+        margin-bottom: 1px;
+    }
+}

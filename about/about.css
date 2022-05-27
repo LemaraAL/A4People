@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif;     */
+}
+/* ==========HEADER=============== */
+header .navbar{
+    padding: 16px 0;
+    background-color: #ffffff;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #007d2f;    
+}
+
+header .navbar-light .navbar-nav .nav-link{
+    color: #191919;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* ========NAME=========== */
+#name{
+    background-color: #323232;
+    padding-top: 110px;
+    color: #ffffff;
+}
+#name h2{
+    font-size: 61.69px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+#name p{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 22.52px;
+    font-weight: 400;
+    line-height: 35.04px;
+    margin-bottom: 110px;
+}
+
+/* ========STATISTICS=========== */
+#statistics .work_top{
+    background-color: #007d2f;
+    padding-top: 60px;    
+}
+#statistics .work_top .work_top_indicator{
+    width: 66.666667%;
+}
+#statistics .work_top i{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 1px;
+    
+}
+#statistics .work_top p:first-of-type{
+    color: #ffffff;
+    font-size: 18.44px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+#statistics .work_top p:last-of-type{
+    color: #ffffff;
+    font-size: 12.29px;
+    font-weight: 500;
+    margin-bottom: 100px;    
+}
+/* ===============ABOUT_ME============== */
+#about_us{
+    background-color: #f5f5f5;
+}
+#about_us .photo_of_me{
+    top: 0;
+    left: 0;
+}
+#about_us .photo_of_me img{
+    object-fit: cover;
+}
+#about_us h2{  
+    padding-top: 135px; 
+    color: #171717;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+#about_us p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+#about_us .signature{    
+    margin-bottom: 140px;
+}
+/* ==========NEED A PROJECT ?========= */
+#need_project{
+    padding-top: 100px;
+    background-color: #ffffff;
+}
+#need_project h2{
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#need_project p{
+    color: #787878;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif; 
+    margin-bottom: 35px;
+}
+#need_project button{
+    background-color: #007d2f;
+    color: #ffffff;
+    width: 100%;
+    height: 54px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    margin-bottom: 100px;    
+}
+
+/* ====================FOOTER========== */
+footer{
+    background-color: #141414;
+    padding-top: 95px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14.72px;
+}
+footer .footer_logo h2{
+    color: #ffffff;
+    font-size: 17.66px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+footer .footer_logo p{    
+    font-weight: 400;    
+    margin-bottom: 25px;
+    line-height: 23.55px;
+    margin-bottom: 90px;
+}
+footer a{
+    display: block;
+    font-weight: 400;    
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+/* small */
+@media (max-width: 768px){
+    #name {
+        padding-top: 50px;
+    }
+    #name h2{
+        font-size: 30px;
+    }
+    #name p{
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    #statistics .work_top p:last-of-type{
+        /* width: 100%; */
+        font-size: 10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: 50px;       
+    }
+    
+    #about_us .signature{    
+        
+        width: 80%;
+    }
+    
+}
+/* md */
+@media (max-width: 992px){
+    #statistics .work_top .work_top_indicator{
+        width: 100%;       
+    }
+    #about_us h2{  
+        padding-top: 50px; 
+       
+    }
+    #about_us p{
+     
+        margin-bottom: 35px;
+    }
+    #about_us .signature{    
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif;     */
+}
+/* ==========HEADER=============== */
+header .navbar{
+    padding: 16px 0;
+    background-color: #ffffff;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #007d2f;    
+}
+
+header .navbar-light .navbar-nav .nav-link{
+    color: #191919;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.graphic_designer{
+    background-color: #007d2f;
+    padding-top: 110px;
+}
+.graphic_designer h2{
+    font-size: 30.02px;
+    font-weight: 500;
+    color: #171717;
+    margin-bottom: 30px;
+
+}
+.graphic_designer p{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 17.29px;
+    font-weight: 500;
+    color: #fefefe;
+    margin-bottom: 95px;
+    line-height: 26.9px;
+}
+/* ==========GALLERY=============== */
+#gallery .img_card{
+    height: 300px;
+}
+#gallery .img_card img{
+    object-fit: cover;
+}
+#gallery .work_middle_overlay{
+    background-color: rgba(55, 137, 86, 0.85);
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#gallery .work_middle_overlay:hover{
+    opacity: 1;
+    transition-duration: 500ms;
+}
+#gallery .work_middle_overlay:hover a img{
+    opacity: 1;
+    transition-duration: 800ms;
+}
+#gallery .work_middle_overlay a img{
+    opacity: 0;
+}
+/* ====================FOOTER========== */
+footer{
+    background-color: #141414;
+    padding-top: 95px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14.72px;
+}
+footer .footer_logo h2{
+    color: #ffffff;
+    font-size: 17.66px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+footer .footer_logo p{    
+    font-weight: 400;    
+    margin-bottom: 25px;
+    line-height: 23.55px;
+    margin-bottom: 100px;
+}
+footer a{
+    display: block;
+    font-weight: 400;    
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
